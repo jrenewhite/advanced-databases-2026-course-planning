@@ -1,0 +1,6 @@
+# PostgreSQL
+postgres-data/
+
+# Editor / OS
+.DS_Store
+.vscode/

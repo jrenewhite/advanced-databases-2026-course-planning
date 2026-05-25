@@ -1,0 +1,10 @@
+# PostgreSQL
+postgres-data/
+
+# Editor / OS
+.DS_Store
+.vscode/
+
+# Exports
+slides/*.html
+slides/*.pdf

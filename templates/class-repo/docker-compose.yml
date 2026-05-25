@@ -1,0 +1,17 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: class-template-postgres
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: demo
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+      - ./demo/init.sql:/docker-entrypoint-initdb.d/01-init.sql:ro
+      - ./demo/seed.sql:/docker-entrypoint-initdb.d/02-seed.sql:ro
+
+volumes:
+  postgres-data:
