@@ -122,6 +122,11 @@ Opciones posibles:
 
 - No será obligatorio para alumnos al inicio.
 - Puede incorporarse más adelante para alumnos/equipos si el grupo responde bien.
+- Se usará principalmente para seguimiento de repos `assignment-*`.
+- Se usará para avances o checkpoints de proyecto final.
+- Se usará para revisión de entregas, bloqueos y defensa o revisión final.
+- Los repos `class-*` no entrarán al GitHub Project por default, porque son material de sesión del instructor.
+- Los repos `class-*` podrán agregarse después solo si conviene dar seguimiento a preparación o publicación de clases, pero no serán el foco del tablero.
 
 **Estado:** decidido.
 
