@@ -4,30 +4,37 @@ theme: advanced-db-dark
 paginate: true
 ---
 
+# Libreria de patrones de slides
+
+Usa este archivo como libreria de patrones copiables hacia `slides/session.md`.
+
+Cada slide de aqui es generica y usa placeholders `TODO`.
+
+---
+
 <!-- _class: hero -->
 
-<div class="kicker">Template reusable</div>
-<div class="meta">dark editorial tech deck</div>
+<div class="kicker">Portada</div>
 
 # TODO Titulo de sesion
 
-## Subtitle placeholder
+## TODO subtitulo breve
 
-Esta presentacion demuestra el lenguaje visual reusable sin contenido especifico de clase.
+<div class="meta">TODO meta o contexto</div>
 
 ---
 
 <!-- _class: agenda -->
 
-<div class="kicker">Ruta</div>
+<div class="kicker">Agenda</div>
 
-# Agenda / ruta de sesion
+# Ruta de sesion
 
 <ul class="agenda-list">
-  <li>Contexto y pregunta guia</li>
-  <li>Concepto clave y realidad</li>
-  <li>Demo y evidencia</li>
-  <li>Ejercicio y recap</li>
+  <li>TODO</li>
+  <li>TODO</li>
+  <li>TODO</li>
+  <li>TODO</li>
 </ul>
 
 ---
@@ -36,9 +43,9 @@ Esta presentacion demuestra el lenguaje visual reusable sin contenido especifico
 
 <div class="kicker">Separador</div>
 
-# Bloque principal
+# TODO Seccion
 
-## Cambio de contexto
+## TODO transicion
 
 ---
 
@@ -48,7 +55,7 @@ Esta presentacion demuestra el lenguaje visual reusable sin contenido especifico
 
 # Pregunta guia
 
-> TODO: formular la pregunta que deberia sostener la sesion completa.
+> TODO
 
 ---
 
@@ -58,16 +65,16 @@ Esta presentacion demuestra el lenguaje visual reusable sin contenido especifico
 
 # Problema real
 
-> TODO: describir una situacion concreta y observable.
+> TODO
 
 <div class="cards">
   <div class="card">
     <div class="meta">Sintoma</div>
-    <p>TODO: que se ve mal.</p>
+    <p>TODO</p>
   </div>
   <div class="card">
     <div class="meta">Impacto</div>
-    <p>TODO: por que importa.</p>
+    <p>TODO</p>
   </div>
 </div>
 
@@ -77,23 +84,23 @@ Esta presentacion demuestra el lenguaje visual reusable sin contenido especifico
 
 <div class="kicker">Incidente</div>
 
-# Incidente anonimizado
+# Relato de incidente
 
-> TODO: resumir un incidente breve, tecnico y sin datos reales.
+> TODO
 
 <div class="card">
   <div class="meta">Leccion</div>
-  <p>TODO: que cambia en el criterio despues del incidente.</p>
+  <p>TODO</p>
 </div>
 
 ---
 
-<div class="kicker">Idea central</div>
+<div class="kicker">Concepto</div>
 
 # Concepto clave
 
 <div class="statement">
-  TODO: expresar una idea central en una frase grande y clara.
+  TODO: escribir una afirmacion central grande y clara.
 </div>
 
 ---
@@ -105,36 +112,36 @@ Esta presentacion demuestra el lenguaje visual reusable sin contenido especifico
 # Concepto vs realidad
 
 <div class="col">
-  <div class="meta">En teoria</div>
-  <p>TODO: regla simple o definicion compacta.</p>
+  <div class="meta">Concepto</div>
+  <p>TODO</p>
 </div>
 
 <div class="col">
-  <div class="meta">En practica</div>
-  <p>TODO: restriccion, excepcion o tradeoff real.</p>
+  <div class="meta">Realidad</div>
+  <p>TODO</p>
 </div>
 
 ---
 
 <div class="kicker">Dashboard</div>
 
-# Dashboard visual
+# Dashboard con 3 cards
 
 <div class="dashboard">
   <div class="metric-card">
-    <div class="meta">Signal A</div>
-    <div class="big-number">42</div>
-    <p class="muted">TODO: lectura breve.</p>
+    <div class="meta">Card A</div>
+    <div class="big-number">01</div>
+    <p class="muted">TODO</p>
   </div>
   <div class="metric-card">
-    <div class="meta">Signal B</div>
-    <div class="big-number">3x</div>
-    <p class="muted">TODO: lectura breve.</p>
+    <div class="meta">Card B</div>
+    <div class="big-number">02</div>
+    <p class="muted">TODO</p>
   </div>
   <div class="metric-card">
-    <div class="meta">Signal C</div>
-    <div class="big-number">OK</div>
-    <p class="muted">TODO: lectura breve.</p>
+    <div class="meta">Card C</div>
+    <div class="big-number">03</div>
+    <p class="muted">TODO</p>
   </div>
 </div>
 
@@ -144,16 +151,16 @@ Esta presentacion demuestra el lenguaje visual reusable sin contenido especifico
 
 <div class="kicker">Antes / despues</div>
 
-# Antes vs despues
+# Comparativa antes / despues
 
 <div class="compare">
   <div class="panel">
     <div class="meta">Antes</div>
-    <p>TODO: describir el estado inicial.</p>
+    <p>TODO</p>
   </div>
   <div class="panel">
     <div class="meta">Despues</div>
-    <p>TODO: describir el estado mejorado.</p>
+    <p>TODO</p>
   </div>
 </div>
 
@@ -167,12 +174,12 @@ Esta presentacion demuestra el lenguaje visual reusable sin contenido especifico
 
 <div class="cards">
   <div class="card">
-    <div class="meta">Gana</div>
-    <p>TODO: beneficio principal.</p>
+    <div class="meta">Beneficio</div>
+    <p>TODO</p>
   </div>
   <div class="card">
-    <div class="meta">Cuesta</div>
-    <p>TODO: costo o riesgo principal.</p>
+    <div class="meta">Costo</div>
+    <p>TODO</p>
   </div>
 </div>
 
@@ -183,8 +190,23 @@ Esta presentacion demuestra el lenguaje visual reusable sin contenido especifico
 # Diagrama conceptual
 
 <div class="diagram-placeholder">
-  TODO: insertar aqui diagrama conceptual, flujo o arquitectura simple.
+  TODO: insertar Mermaid, SVG o esquema simple.
 </div>
+
+---
+
+<!-- _class: workflow -->
+
+<div class="kicker">Flujo</div>
+
+# Timeline / flujo
+
+<ul class="agenda-list">
+  <li>Paso 1</li>
+  <li>Paso 2</li>
+  <li>Paso 3</li>
+  <li>Paso 4</li>
+</ul>
 
 ---
 
@@ -195,19 +217,19 @@ Esta presentacion demuestra el lenguaje visual reusable sin contenido especifico
 # Setup de demo estilo terminal
 
 <div class="terminal">
-$ docker compose up -d
+$ TODO command
 <br />
-$ psql postgresql://postgres:postgres@localhost:5432/demo
+$ TODO command
 <br />
-$ TODO: preparar observacion principal
+$ TODO command
 </div>
 
 <div class="terminal right-controls">
-$ psql -f demo/init.sql
+$ TODO command
 <br />
-$ psql -f demo/seed.sql
+$ TODO command
 <br />
-$ TODO: ejecutar variante con controles a la derecha
+$ TODO command
 </div>
 
 ---
@@ -219,26 +241,23 @@ $ TODO: ejecutar variante con controles a la derecha
 # Pasos de demo
 
 <ul class="checklist-list">
-  <li>Ejecutar query base</li>
-  <li>Observar salida</li>
-  <li>Aplicar cambio minimo</li>
-  <li>Comparar resultado</li>
+  <li>TODO</li>
+  <li>TODO</li>
+  <li>TODO</li>
+  <li>TODO</li>
 </ul>
 
 ---
 
-<div class="kicker">SQL corto</div>
+<div class="kicker">SQL</div>
 
-# SQL corto
+# Query / SQL corto
 
 ```sql
-EXPLAIN ANALYZE
 SELECT *
-FROM orders
-WHERE customer_id = 42;
+FROM table_name
+WHERE id = 42;
 ```
-
-<span class="pill">short code only</span>
 
 ---
 
@@ -263,7 +282,7 @@ WHERE customer_id = 42;
 
 # Ejercicio
 
-> TODO: describir actividad breve, evidencia esperada y tiempo sugerido.
+> TODO
 
 <div class="cards">
   <div class="card">
@@ -285,10 +304,10 @@ WHERE customer_id = 42;
 # Evidencia esperada
 
 <ul class="checklist-list">
-  <li>Query antes</li>
-  <li>Query despues</li>
-  <li>Plan o resultado</li>
-  <li>Tradeoff explicado</li>
+  <li>TODO</li>
+  <li>TODO</li>
+  <li>TODO</li>
+  <li>TODO</li>
 </ul>
 
 ---
@@ -299,7 +318,7 @@ WHERE customer_id = 42;
 
 # IA permitida, criterio obligatorio
 
-> TODO: indicar que la IA puede ayudar, pero la validacion sigue siendo humana.
+> TODO
 
 ---
 
@@ -307,13 +326,28 @@ WHERE customer_id = 42;
 
 <div class="kicker">Workflow</div>
 
-# GitHub / repo workflow
+# GitHub workflow / repo workflow
 
 <ul class="agenda-list">
-  <li>Repo base comun</li>
+  <li>Repo base</li>
   <li>Rama de trabajo</li>
-  <li>Evidencia y entrega</li>
-  <li>Revision posterior</li>
+  <li>Evidencia</li>
+  <li>Revision</li>
+</ul>
+
+---
+
+<!-- _class: checklist -->
+
+<div class="kicker">Checklist</div>
+
+# Checklist
+
+<ul class="checklist-list">
+  <li>TODO</li>
+  <li>TODO</li>
+  <li>TODO</li>
+  <li>TODO</li>
 </ul>
 
 ---
@@ -324,7 +358,7 @@ WHERE customer_id = 42;
 
 # Warning / anti-pattern
 
-> TODO: destacar una practica comun que parezca conveniente pero genere deuda o confusion.
+> TODO
 
 ---
 
@@ -334,7 +368,7 @@ WHERE customer_id = 42;
 
 # Resultado correcto / takeaway positivo
 
-> TODO: resumir el resultado correcto o el aprendizaje central.
+> TODO
 
 ---
 
@@ -345,10 +379,10 @@ WHERE customer_id = 42;
 # Recap visual
 
 <ul>
-  <li>Idea clave uno</li>
-  <li>Idea clave dos</li>
-  <li>Idea clave tres</li>
-  <li>Paso siguiente</li>
+  <li>TODO</li>
+  <li>TODO</li>
+  <li>TODO</li>
+  <li>TODO</li>
 </ul>
 
 ---
@@ -359,4 +393,4 @@ WHERE customer_id = 42;
 
 # Siguiente clase
 
-> TODO: dejar una tension o pregunta para el proximo tema.
+> TODO

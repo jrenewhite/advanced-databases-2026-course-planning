@@ -4,7 +4,7 @@
 
 Draft inicial controlado por el instructor.
 
-Este documento define los principios, criterios y formatos recomendados para evaluar actividades, laboratorios, participación y proyecto final en el curso **Sistemas Avanzados de Bases de Datos** de **UniVO**.
+Este documento define los principios, criterios y formatos recomendados para evaluar actividades, laboratorios, participación y proyecto final en el curso **Sistemas Avanzados de Bases de Datos**.
 
 Debe leerse después de:
 
@@ -70,7 +70,7 @@ Proyecto final                 30%
 Reportes / notas técnicas      10%
 ```
 
-La distribución puede ajustarse si UniVO indica un criterio específico.
+La distribución puede ajustarse si la institución indica un criterio específico.
 
 No inventar cambios institucionales sin autorización.
 

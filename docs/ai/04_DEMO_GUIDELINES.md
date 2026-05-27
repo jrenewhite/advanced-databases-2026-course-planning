@@ -5,7 +5,7 @@
 
 Draft inicial controlado por el instructor.
 
-Este documento define las reglas para diseñar, crear, ejecutar y mantener demos/laboratorios del curso **Sistemas Avanzados de Bases de Datos** de **UniVO**.
+Este documento define las reglas para diseñar, crear, ejecutar y mantener demos/laboratorios del curso **Sistemas Avanzados de Bases de Datos**.
 
 Debe leerse después de:
 
@@ -700,5 +700,4 @@ Cuando Codex genere demos:
 * Definir estrategia para datasets grandes.
 * Definir convención para scripts `01-*`, `02-*`, etc.
 * Definir si se usará `psql`, DBeaver, Azure Data Studio u otra herramienta principal.
-
 

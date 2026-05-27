@@ -4,7 +4,7 @@
 
 Draft inicial controlado por el instructor.
 
-Este documento mapea cada carpeta `class-*` del curso **Sistemas Avanzados de Bases de Datos** de **UniVO** contra su sesión, tema principal, entregables esperados y relación con demos/evaluación.
+Este documento mapea cada carpeta `class-*` del curso **Sistemas Avanzados de Bases de Datos** contra su sesión, tema principal, entregables esperados y relación con demos/evaluación.
 
 Debe leerse junto con:
 

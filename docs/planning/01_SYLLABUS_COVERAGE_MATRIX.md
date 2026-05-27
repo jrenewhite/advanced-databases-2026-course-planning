@@ -4,7 +4,7 @@
 
 Draft inicial controlado por el instructor.
 
-Este documento mapea los temas oficiales de la materia **Sistemas Avanzados de Bases de Datos** de **UniVO** contra el plan de 10 sesiones definido en:
+Este documento mapea los temas oficiales de la materia **Sistemas Avanzados de Bases de Datos** contra el plan de 10 sesiones definido en:
 
 ```txt
 00-course-planning/docs/planning/00_COURSE_PLAN.md
@@ -22,7 +22,7 @@ Este documento debe usarse para:
 * evitar omisiones
 * justificar la distribución de sesiones
 * guiar a Codex/ChatGPT al generar contenido
-* mantener alineación académica con UniVO
+* mantener alineación académica institucional
 
 ---
 
@@ -502,7 +502,6 @@ Cuando Codex genere material de una clase, debe consultar esta matriz y asegurar
 ## TODO
 
 * Validar esta matriz con el instructor después de revisar el calendario real.
-* Ajustar si UniVO solicita énfasis distinto.
+* Ajustar si la institución solicita énfasis distinto.
 * Ajustar después de conocer nivel real del grupo.
 * Conectar cada tema oficial con prácticas concretas.
-

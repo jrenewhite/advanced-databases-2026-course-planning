@@ -4,7 +4,7 @@
 
 Draft inicial controlado por el instructor.
 
-Este documento define las reglas para organizar, nombrar, mantener y publicar los repositorios/carpetas del curso **Sistemas Avanzados de Bases de Datos** de **UniVO**.
+Este documento define las reglas para organizar, nombrar, mantener y publicar los repositorios/carpetas del curso **Sistemas Avanzados de Bases de Datos**.
 
 Debe leerse después de:
 

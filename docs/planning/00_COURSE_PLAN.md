@@ -4,7 +4,7 @@
 
 Draft inicial controlado por el instructor.
 
-Este documento define la estructura general de la materia **Sistemas Avanzados de Bases de Datos** de **UniVO**.
+Este documento define la estructura general de la materia **Sistemas Avanzados de Bases de Datos**.
 
 Debe leerse junto con:
 
@@ -29,7 +29,7 @@ El curso debe conectar teoría académica con problemas reales de ingeniería, u
 
 ## 1. Contexto general
 
-* Universidad: UniVO
+* Institución: TODO
 * Materia: Sistemas Avanzados de Bases de Datos
 * Nivel: posgrado
 * Duración estimada: 10 sesiones
@@ -695,7 +695,7 @@ Proyecto final                 30%
 Reportes / notas técnicas      10%
 ```
 
-La evaluación exacta puede ajustarse según lineamientos de UniVO.
+La evaluación exacta puede ajustarse según lineamientos institucionales.
 
 ---
 

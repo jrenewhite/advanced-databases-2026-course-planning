@@ -4,7 +4,7 @@
 
 Draft inicial controlado por el instructor.
 
-Este documento define las reglas para crear, revisar y mantener las presentaciones del curso **Sistemas Avanzados de Bases de Datos** de **UniVO**.
+Este documento define las reglas para crear, revisar y mantener las presentaciones del curso **Sistemas Avanzados de Bases de Datos**.
 
 Debe leerse después de:
 
@@ -417,8 +417,7 @@ paginate: true
 
 # Título de la sesión
 
-Sistemas Avanzados de Bases de Datos  
-UniVO
+Sistemas Avanzados de Bases de Datos
 
 ---
 

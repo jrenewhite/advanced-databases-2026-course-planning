@@ -46,4 +46,4 @@ La IA no debe copiar:
 
 ## Objetivo
 
-Crear materiales originales para la materia **Sistemas Avanzados de Bases de Datos** de **UniVO**, inspirados en buenas prácticas visuales y de comunicación técnica, pero sin replicar contenido protegido.
+Crear materiales originales para la materia **Sistemas Avanzados de Bases de Datos**, inspirados en buenas prácticas visuales y de comunicación técnica, pero sin replicar contenido protegido.

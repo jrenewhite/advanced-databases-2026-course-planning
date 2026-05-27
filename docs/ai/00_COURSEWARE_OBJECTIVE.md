@@ -4,7 +4,7 @@
 
 Draft inicial controlado por el instructor.
 
-Este documento define la visión general, restricciones, alcance y criterios principales para crear el material de la materia **Sistemas Avanzados de Bases de Datos** de **UniVO**.
+Este documento define la visión general, restricciones, alcance y criterios principales para crear el material de la materia **Sistemas Avanzados de Bases de Datos**.
 
 Debe ser leído antes de cualquier tarea relacionada con planeación, generación de slides, demos, ejercicios, rúbricas, repositorios o materiales de clase.
 
@@ -22,7 +22,7 @@ La IA debe apoyar como acelerador de producción, pero no debe reemplazar el cri
 
 ## 1. Contexto del curso
 
-- Universidad: UniVO
+- Institución: TODO
 - Materia: Sistemas Avanzados de Bases de Datos
 - Nivel: posgrado
 - Duración estimada: 10 sesiones

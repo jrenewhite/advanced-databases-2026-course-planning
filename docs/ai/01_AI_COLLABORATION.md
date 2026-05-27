@@ -4,7 +4,7 @@
 
 Draft inicial controlado por el instructor.
 
-Este documento define cómo deben colaborar Codex, ChatGPT u otras herramientas de IA en la creación, mantenimiento y revisión del material del curso **Sistemas Avanzados de Bases de Datos** de **UniVO**.
+Este documento define cómo deben colaborar Codex, ChatGPT u otras herramientas de IA en la creación, mantenimiento y revisión del material del curso **Sistemas Avanzados de Bases de Datos**.
 
 Debe leerse después de:
 

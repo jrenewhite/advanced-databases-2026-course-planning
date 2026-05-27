@@ -4,7 +4,7 @@
 
 Documento vivo.
 
-Este archivo contiene preguntas, decisiones abiertas y respuestas del instructor para el curso **Sistemas Avanzados de Bases de Datos** de **UniVO**.
+Este archivo contiene preguntas, decisiones abiertas y respuestas del instructor para el curso **Sistemas Avanzados de Bases de Datos**.
 
 Codex/ChatGPT debe consultar este documento antes de asumir decisiones importantes.
 
