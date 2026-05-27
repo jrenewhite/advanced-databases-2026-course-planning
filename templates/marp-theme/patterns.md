@@ -12,6 +12,55 @@ Cada slide de aqui es generica y usa placeholders `TODO`.
 
 ---
 
+<!-- _class: section grid-lines -->
+
+<div class="kicker">Fondos</div>
+
+# Variantes de grid
+
+## Patrones visuales de fondo
+
+---
+
+<!-- _class: grid-lines -->
+
+<div class="kicker">Grid Lines</div>
+
+# Grid default
+
+<div class="card">
+  <div class="meta">Cuándo usarlo</div>
+  <p>TODO</p>
+</div>
+
+---
+
+<!-- _class: grid-lines-small -->
+
+<div class="kicker">Grid Lines Small</div>
+
+# Grid lines small
+
+<div class="card">
+  <div class="meta">Cuándo usarlo</div>
+  <p>TODO</p>
+</div>
+
+---
+
+<!-- _class: grid-dots -->
+
+<div class="kicker">Grid Dots</div>
+
+# Grid dots
+
+<div class="card">
+  <div class="meta">Cuándo usarlo</div>
+  <p>TODO</p>
+</div>
+
+---
+
 <!-- _class: hero -->
 
 <div class="kicker">Portada</div>

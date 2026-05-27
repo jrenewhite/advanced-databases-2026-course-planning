@@ -6,9 +6,9 @@
   --bg: #060708;
   --bg-2: #0d0f11;
   --bg-3: #14171b;
-  --grid: rgba(255, 255, 255, 0.045);
-  --grid-strong: rgba(255, 255, 255, 0.07);
-  --grid-glow: rgba(255, 255, 255, 0.03);
+  --grid: rgba(255, 255, 255, 0.075);
+  --grid-soft: rgba(255, 255, 255, 0.055);
+  --grid-faint: rgba(255, 255, 255, 0.035);
   --card: rgba(235, 230, 221, 0.075);
   --card-strong: rgba(235, 230, 221, 0.115);
   --card-border: rgba(245, 239, 230, 0.14);
@@ -20,19 +20,18 @@
   --danger: #ff8e8e;
   --success: #9ae6b0;
   --shadow: rgba(0, 0, 0, 0.34);
+  --grid-size: 132px;
+  --grid-size-small: 72px;
+  --grid-dot-size: 34px;
 }
 
 section {
   font-family: "Aptos", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --surface-glow: radial-gradient(circle at top left, rgba(255, 255, 255, 0.04), transparent 28%);
+  --surface-base: linear-gradient(180deg, var(--bg-2) 0%, var(--bg) 100%);
   background:
-    linear-gradient(var(--grid) 1px, transparent 1px),
-    linear-gradient(90deg, var(--grid) 1px, transparent 1px),
-    linear-gradient(var(--grid-glow) 1px, transparent 1px),
-    linear-gradient(90deg, var(--grid-glow) 1px, transparent 1px),
-    radial-gradient(circle at top left, rgba(255, 255, 255, 0.03), transparent 28%),
-    linear-gradient(180deg, var(--bg-2) 0%, var(--bg) 100%);
-  background-size: 48px 48px, 48px 48px, 12px 12px, 12px 12px, auto, auto;
-  background-position: 0 0, 0 0, -1px -1px, -1px -1px, 0 0, 0 0;
+    var(--surface-glow),
+    var(--surface-base);
   color: var(--text);
   font-size: 30px;
   line-height: 1.28;
@@ -52,15 +51,16 @@ section::before {
   content: "";
   position: absolute;
   inset: 0;
+  display: block;
   pointer-events: none;
   z-index: 0;
-  background:
-    linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0.01) 100%),
-    linear-gradient(var(--grid-strong) 1px, transparent 1px),
-    linear-gradient(90deg, var(--grid-strong) 1px, transparent 1px);
-  background-size: auto, 144px 144px, 144px 144px;
-  background-position: 0 0, 0 0, 0 0;
-  opacity: 0.32;
+  background-image:
+    linear-gradient(to right, var(--grid) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--grid) 1px, transparent 1px);
+  background-size: var(--grid-size) var(--grid-size);
+  background-position: 0 0;
+  background-repeat: repeat;
+  opacity: 0.82;
 }
 
 section::after {
@@ -212,12 +212,8 @@ th {
 section.hero,
 section.lead {
   justify-content: center;
-  background:
-    linear-gradient(var(--grid) 1px, transparent 1px),
-    linear-gradient(90deg, var(--grid) 1px, transparent 1px),
-    radial-gradient(circle at 15% 10%, rgba(255, 255, 255, 0.08), transparent 24%),
-    linear-gradient(180deg, #090a0b 0%, #050607 100%);
-  background-size: 44px 44px, 44px 44px, auto, auto;
+  --surface-glow: radial-gradient(circle at 15% 10%, rgba(255, 255, 255, 0.07), transparent 24%);
+  --surface-base: linear-gradient(180deg, #090a0b 0%, #050607 100%);
 }
 
 section.hero h1,
@@ -369,11 +365,8 @@ section.before-after .panel {
 
 section.section {
   justify-content: center;
-  background:
-    linear-gradient(var(--grid) 1px, transparent 1px),
-    linear-gradient(90deg, var(--grid) 1px, transparent 1px),
-    linear-gradient(180deg, #0b0c0d 0%, #050607 100%);
-  background-size: 44px 44px, 44px 44px, auto;
+  --surface-glow: radial-gradient(circle at center, rgba(255, 255, 255, 0.035), transparent 34%);
+  --surface-base: linear-gradient(180deg, #0b0c0d 0%, #050607 100%);
 }
 
 section.section h1 {
@@ -486,4 +479,34 @@ section.small {
 
 section.tiny {
   font-size: 20px;
+}
+
+section.grid-lines::before,
+section::before {
+  background-image:
+    linear-gradient(to right, var(--grid) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--grid) 1px, transparent 1px);
+  background-size: var(--grid-size) var(--grid-size);
+  background-position: 0 0;
+  background-repeat: repeat;
+  opacity: 0.82;
+}
+
+section.grid-lines-small::before {
+  background-image:
+    linear-gradient(to right, var(--grid-soft) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--grid-soft) 1px, transparent 1px);
+  background-size: var(--grid-size-small) var(--grid-size-small);
+  background-position: 0 0;
+  background-repeat: repeat;
+  opacity: 0.9;
+}
+
+section.grid-dots::before {
+  background-image:
+    radial-gradient(circle, var(--grid) 1.2px, transparent 1.9px);
+  background-size: var(--grid-dot-size) var(--grid-dot-size);
+  background-position: 0 0;
+  background-repeat: repeat;
+  opacity: 0.78;
 }

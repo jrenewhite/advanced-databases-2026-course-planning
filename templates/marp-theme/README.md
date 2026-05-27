@@ -73,6 +73,9 @@ La ruta puede requerir ajuste segun la ubicacion real del archivo `session.md`.
 * `kicker`: subtitulo pequeno con tracking
 * `meta`: metadato editorial pequeño
 * `grid`: grid reusable de 2 columnas
+* `grid-lines`: grid base de lineas horizontales y verticales
+* `grid-lines-small`: grid mas denso con celdas pequenas
+* `grid-dots`: fondo con puntos sutiles
 * `card`: tarjeta translúcida reusable
 * `cards`: grupo de tarjetas
 * `metric-card`: tarjeta para numero / señal
@@ -120,6 +123,7 @@ Usa `patterns.md` cuando quieras:
 * copiar una slide tipo ya resuelta
 * mantener estructura consistente de workshop tecnico
 * evitar rediseñar slides editoriales una por una
+* revisar variantes de grid/fondo antes de armar una deck nueva
 
 ## Como Copiar Patrones a `slides/session.md`
 
@@ -136,7 +140,9 @@ Proceso sugerido:
 
 * dark theme por defecto
 * fondo negro o casi negro
-* grid sutil de lineas finas horizontales y verticales
+* `grid-lines` es el fondo default del theme
+* los grids deben ser sutiles pero visibles
+* lineas en gris-blanco de baja opacidad
 * alta legibilidad sobre fondo oscuro
 * tipografia local del sistema, sin descargas externas
 * tipografia grande, limpia y con mucho espacio negativo
@@ -147,6 +153,31 @@ Proceso sugerido:
 * usar referencias externas solo como inspiracion general
 * no copiar layouts, frases, screenshots, imagenes ni marcas visuales de terceros
 
+## Variantes de Grid
+
+Usa estas clases directamente en una slide Marp:
+
+```md
+<!-- _class: grid-lines -->
+<!-- _class: grid-lines-small -->
+<!-- _class: grid-dots -->
+```
+
+Recomendaciones:
+
+* `grid-lines`: fondo general por defecto
+* `grid-lines-small`: slides mas tecnicas o mas densas
+* `grid-dots`: recaps, preguntas guia, slides con mucho espacio negativo
+
+## Opacidad y Legibilidad
+
+Para que el fondo no compita con el contenido:
+
+* mantener lineas alrededor de `rgba(255,255,255,0.055)` a `rgba(255,255,255,0.075)`
+* reservar opacidades mayores solo para grids de prueba o variantes mas abstractas
+* mantener cards, terminales y bloques de codigo con fondo mas solido que el grid
+* si una slide se siente ruidosa, volver a `grid-lines` o `grid-dots`
+
 ## Exportacion Recomendada
 
 Para validar rapido el theme:
@@ -154,6 +185,7 @@ Para validar rapido el theme:
 ```bash
 marp 00-course-planning/templates/marp-theme/example.md --theme-set 00-course-planning/templates/marp-theme/advanced-db-dark.css --html --output /tmp/marp-theme-example.html
 marp 00-course-planning/templates/marp-theme/example.md --theme-set 00-course-planning/templates/marp-theme/advanced-db-dark.css --pdf --output /tmp/marp-theme-example.pdf
+marp 00-course-planning/templates/marp-theme/patterns.md --theme-set 00-course-planning/templates/marp-theme/advanced-db-dark.css --html --output /tmp/marp-theme-patterns.html
 ```
 
 Para exportar una clase:

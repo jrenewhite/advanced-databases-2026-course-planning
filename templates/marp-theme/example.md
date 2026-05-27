@@ -17,6 +17,55 @@ Esta presentacion demuestra el lenguaje visual reusable sin contenido especifico
 
 ---
 
+<!-- _class: section grid-lines -->
+
+<div class="kicker">Fondos</div>
+
+# Variantes de grid
+
+## Demo visual del sistema reusable
+
+---
+
+<!-- _class: grid-lines -->
+
+<div class="kicker">Grid Lines</div>
+
+# Grid default
+
+<div class="card">
+  <div class="meta">Uso sugerido</div>
+  <p>TODO: usar como fondo por defecto para slides editoriales, conceptuales o de comparacion.</p>
+</div>
+
+---
+
+<!-- _class: grid-lines-small -->
+
+<div class="kicker">Grid Lines Small</div>
+
+# Grid lines small
+
+<div class="card">
+  <div class="meta">Uso sugerido</div>
+  <p>TODO: usar cuando quieras un fondo mas tecnico y un poco mas denso sin competir con el contenido.</p>
+</div>
+
+---
+
+<!-- _class: grid-dots -->
+
+<div class="kicker">Grid Dots</div>
+
+# Grid dots
+
+<div class="card">
+  <div class="meta">Uso sugerido</div>
+  <p>TODO: usar para slides mas ligeras, recaps, preguntas guia o transiciones con mucho espacio negativo.</p>
+</div>
+
+---
+
 <!-- _class: agenda -->
 
 <div class="kicker">Ruta</div>
