@@ -52,7 +52,7 @@ Debe preguntar.
 
 ### 1. Evaluación institucional
 
-**Pregunta:** ¿Se mantendrá exactamente la distribución del documento oficial?
+**Decisión:** se mantendrá la distribución oficial de evaluación y se aterrizará con entregables modernos del curso.
 
 ```txt
 Examen escrito          20%
@@ -62,7 +62,15 @@ Proyecto final          30%
 Reportes lectura        10%
 ````
 
-**Estado:** pendiente.
+**Interpretación operativa:**
+
+- Examen escrito: componente conceptual breve, con posibilidad de apoyo mediante revisión técnica corta cuando convenga.
+- Diagramas: modelado lógico, arquitectura de datos, concurrencia, dimensional o diagramas comparativos.
+- Prácticas de laboratorio: tareas evaluables fuera de clase en repos `assignment-*`.
+- Proyecto final: repositorio separado con README, evidencia, uso de IA documentado y revisión final.
+- Reportes de lectura: notas de lectura, reflexión o research técnico breve.
+
+**Estado:** decidido.
 
 ---
 
@@ -82,13 +90,14 @@ Reportes lectura        10%
 
 ### 3. Proyecto final individual o por equipo
 
-**Decisión:** el proyecto final tendrá como default equipos de 2–3.
+**Decisión:** dado el grupo actual de 5 estudiantes, el proyecto final será probablemente individual.
 
 **Estrategia:**
 
-- El formato por defecto será por equipos de 2–3.
-- Si el grupo es pequeño, el proyecto final podrá hacerse de manera individual.
-- La decisión final se tomará después de conocer al grupo.
+- El grupo actual es pequeño y favorece seguimiento más directo.
+- El formato esperado será individual por default.
+- Podrán permitirse parejas si el avance real del grupo o la carga del proyecto lo ameritan.
+- Debe contemplarse una revisión o defensa oral breve al cierre.
 
 **Estado:** decidido.
 
@@ -178,25 +187,60 @@ Opciones posibles:
 
 ### 10. Nivel real del grupo
 
-**Pregunta:** ¿Qué tanto saben los alumnos de SQL, Docker, Git/GitHub y programación?
+**Decisión:** el grupo actual tiene 5 estudiantes.
 
-**Estado:** pendiente hasta primera clase.
+**Implicación:**
+
+- Se puede dar seguimiento más directo a entregas, bloqueos y participación.
+- El proyecto final puede orientarse principalmente a modalidad individual.
+- La revisión de evidencia y una posible defensa oral breve son operativamente viables.
+
+**Estado:** decidido.
 
 ---
 
 ### 11. Fechas reales del calendario
 
-**Pregunta:** ¿Cuáles son las fechas exactas de clase y entregas?
+**Decisión:** el calendario oficial del curso ya está definido.
 
-**Estado:** pendiente.
+**Fechas de sesión:**
+
+- 2 de junio de 2026
+- 4 de junio de 2026
+- 9 de junio de 2026
+- 11 de junio de 2026
+- 16 de junio de 2026
+- 18 de junio de 2026
+- 23 de junio de 2026
+- 25 de junio de 2026
+- 30 de junio de 2026
+- 2 de julio de 2026
+
+**Duración total:** 10 sesiones, 20 horas.
+
+**Estado:** decidido.
 
 ---
 
 ### 12. Ajuste de horario jueves
 
-**Pregunta:** ¿Se conservará jueves 19:00–21:00 o se ajustará con el grupo por posible conflicto laboral?
+**Decisión:** se mantiene el horario oficial de 19:00–21:00.
 
-**Estado:** pendiente hasta primera clase.
+**Estado:** decidido.
+
+---
+
+### 12.1 Modalidad y operación institucional
+
+**Decisión:** la operación oficial del curso será sincrónica por Google Meet con uso de Classroom como plataforma administrativa.
+
+**Implicación:**
+
+- Las sesiones en vivo ocurrirán por Meet.
+- Classroom será el canal base para avisos, materiales administrativos y seguimiento institucional.
+- Cada sesión debe dejar evidencia mínima de participación o asistencia, además de la evidencia técnica cuando aplique.
+
+**Estado:** decidido.
 
 ---
 
@@ -244,9 +288,15 @@ Opciones posibles:
 
 ### 18. Defensa oral
 
-**Pregunta:** ¿Habrá defensa oral breve para prácticas/proyecto o solo entrega escrita?
+**Decisión:** se contempla una revisión o defensa oral breve, especialmente para el proyecto final.
 
-**Estado:** pendiente.
+**Estrategia:**
+
+- La defensa breve será especialmente útil al cierre del curso.
+- También puede aplicarse a prácticas clave cuando haga falta validar autoría, criterio o comprensión.
+- La duración debe mantenerse corta y enfocada en evidencia y decisiones.
+
+**Estado:** decidido.
 
 ---
 

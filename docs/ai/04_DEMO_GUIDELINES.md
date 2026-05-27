@@ -537,7 +537,7 @@ psql:
 	docker exec -it class-demo-postgres psql -U postgres -d demo
 
 slides:
-	marp slides/session.md --html --output slides/session.html
+	marp ../00-course-planning/slides/NN-topic-name.md --html --output slides/session.html
 ```
 
 No agregar targets que no se usen.
@@ -700,4 +700,3 @@ Cuando Codex genere demos:
 * Definir estrategia para datasets grandes.
 * Definir convención para scripts `01-*`, `02-*`, etc.
 * Definir si se usará `psql`, DBeaver, Azure Data Studio u otra herramienta principal.
-

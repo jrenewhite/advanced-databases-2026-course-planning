@@ -29,18 +29,47 @@ El curso debe conectar teoría académica con problemas reales de ingeniería, u
 
 ## 1. Contexto general
 
-* Institución: TODO
+* Programa: Maestría en Sistemas Computacionales
 * Materia: Sistemas Avanzados de Bases de Datos
 * Nivel: posgrado
-* Duración estimada: 10 sesiones
+* Duración: 10 sesiones
+* Duración total: 20 horas
 * Frecuencia: martes y jueves
 * Horario: 19:00–21:00
 * Duración por sesión: 2 horas
+* Modalidad: sincrónica por Google Meet
+* Plataforma administrativa: Classroom
+* Grupo actual: 5 estudiantes
 * Perfil esperado:
 
   * alumnos con formación académica
   * experiencia industrial posiblemente limitada
   * interés en conectar teoría con práctica
+
+### Nota operativa
+
+El curso operará con sesiones sincrónicas por Meet y seguimiento administrativo por Classroom.
+
+Cada sesión debe dejar evidencia mínima de participación o asistencia.
+
+Cuando exista actividad técnica asociada a la sesión, también debe quedar evidencia revisable de trabajo.
+
+---
+
+## 1.1 Calendario real 2026
+
+```txt
+Clase 01 — Martes 2 de junio de 2026
+Clase 02 — Jueves 4 de junio de 2026
+Clase 03 — Martes 9 de junio de 2026
+Clase 04 — Jueves 11 de junio de 2026
+Clase 05 — Martes 16 de junio de 2026
+Clase 06 — Jueves 18 de junio de 2026
+Clase 07 — Martes 23 de junio de 2026
+Clase 08 — Jueves 25 de junio de 2026
+Clase 09 — Martes 30 de junio de 2026
+Clase 10 — Jueves 2 de julio de 2026
+```
 
 ---
 
@@ -645,11 +674,15 @@ El proyecto debe incluir:
 * justificación
 * evidencia
 * tradeoffs
-* presentación/defensa
+* presentación o revisión oral breve
 
 No debe ser innecesariamente grande.
 
 Debe poder revisarse y defenderse con claridad.
+
+Dado que el grupo actual es de 5 estudiantes, el escenario más probable es proyecto individual.
+
+Si el alcance real lo justifica, podrán permitirse parejas en casos puntuales.
 
 ---
 
@@ -657,7 +690,15 @@ Debe poder revisarse y defenderse con claridad.
 
 GitHub Projects puede usarse para simular trabajo real.
 
-Cada práctica o actividad puede representarse como issue.
+Se usará principalmente para:
+
+* repos `assignment-*`
+* checkpoints de proyecto final
+* revisión de entregas
+* bloqueos
+* revisión o defensa final
+
+Los repos `class-*` no son el foco del tablero por default.
 
 Columnas sugeridas:
 
@@ -683,19 +724,25 @@ El objetivo es que los alumnos practiquen:
 
 ---
 
-## 8. Evaluación sugerida
+## 8. Evaluación oficial aterrizada al curso
 
-Alineada al documento oficial:
+Alineada al documento oficial y aterrizada al flujo operativo del curso:
 
 ```txt
-Examen / defensa técnica       20%
+Examen escrito                 20%
 Diagramas                      10%
 Prácticas de laboratorio       30%
 Proyecto final                 30%
-Reportes / notas técnicas      10%
+Reportes de lectura            10%
 ```
 
-La evaluación exacta puede ajustarse según lineamientos institucionales.
+Interpretación operativa:
+
+* Examen escrito: evaluación conceptual breve, con apoyo de revisión técnica corta cuando convenga.
+* Diagramas: modelado, arquitectura, concurrencia o esquemas dimensionales.
+* Prácticas de laboratorio: trabajo fuera de clase en repos `assignment-*`.
+* Proyecto final: repositorio separado con evidencia y posible defensa breve.
+* Reportes de lectura: notas de lectura, reflexión o research técnico breve.
 
 ---
 
@@ -738,8 +785,7 @@ Durante la primera clase, confirmar con el grupo:
 * experiencia con Git/GitHub
 * nivel de programación
 * disponibilidad para trabajo fuera de clase
-* interés en proyecto individual o por equipo
-* ajuste de horario si hay conflicto con jueves
+* interés en proyecto individual o en parejas si hiciera falta
 
 Con base en eso, ajustar:
 
@@ -822,9 +868,6 @@ Al finalizar, los alumnos deberían poder:
 
 ## TODO
 
-* Validar fechas reales contra calendario oficial.
-* Definir si el proyecto final será individual o por equipo.
-* Definir si las prácticas serán individuales o por equipo.
 * Definir herramientas permitidas para alumnos.
 * Definir entregables mínimos por clase.
-* Ajustar plan después de conocer nivel real del grupo.
+* Ajustar plan después de confirmar nivel real del grupo.

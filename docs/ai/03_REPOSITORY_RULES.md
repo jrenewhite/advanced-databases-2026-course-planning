@@ -207,22 +207,20 @@ Es válido mantener carpetas vacías si forman parte de la convención.
 
 ### `slides/`
 
-Contiene la presentación fuente en Marp.
+En cada repo `class-*`, `slides/` debe funcionar como destino de exports student-facing.
 
-Archivo principal:
-
-```txt
-slides/session.md
-```
-
-Puede incluir:
+Archivos esperados cuando existan:
 
 ```txt
-slides/assets/
-slides/exports/
+slides/session.html
+slides/session.pdf
 ```
 
-Solo si hace sentido para esa clase.
+La fuente editable en Marp debe vivir centralizada en:
+
+```txt
+00-course-planning/slides/NN-topic-name.md
+```
 
 ### `demo/`
 
@@ -553,7 +551,8 @@ Antes de publicar revisar:
 Contenido visible para alumnos:
 
 * `README.md`
-* `slides/session.md`
+* `slides/session.html`
+* `slides/session.pdf`
 * `demo/` inicial
 * `exercises/README.md`
 * assets necesarios

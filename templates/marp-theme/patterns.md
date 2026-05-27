@@ -6,7 +6,7 @@ paginate: true
 
 # Libreria de patrones de slides
 
-Usa este archivo como libreria de patrones copiables hacia `slides/session.md`.
+Usa este archivo como libreria de patrones copiables hacia `00-course-planning/slides/NN-topic-name.md`.
 
 Cada slide de aqui es generica y usa placeholders `TODO`.
 

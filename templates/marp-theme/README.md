@@ -19,11 +19,11 @@ El objetivo es:
 
 * `advanced-db-dark.css`: theme Marp principal
 * `example.md`: demostracion visual del theme con layout editorial
-* `patterns.md`: libreria reusable de patrones genericos para copiar hacia `slides/session.md`
+* `patterns.md`: libreria reusable de patrones genericos para copiar hacia `00-course-planning/slides/NN-topic-name.md`
 
 ## Como Usarlo Desde Una Clase
 
-Dentro de `slides/session.md`, usar frontmatter compatible con Marp:
+Dentro de `00-course-planning/slides/NN-topic-name.md`, usar frontmatter compatible con Marp:
 
 ```yaml
 ---
@@ -38,11 +38,11 @@ Luego exportar registrando explicitamente el archivo CSS del theme.
 Ejemplos:
 
 ```bash
-marp slides/session.md --theme-set ../../00-course-planning/templates/marp-theme/advanced-db-dark.css --html --output slides/session.html
-marp slides/session.md --theme-set ../../00-course-planning/templates/marp-theme/advanced-db-dark.css --pdf --output slides/session.pdf
+marp 00-course-planning/slides/04-indexes-query-performance.md --theme-set 00-course-planning/templates/marp-theme/advanced-db-dark.css --html --output class-04-indexes-query-performance/slides/session.html
+marp 00-course-planning/slides/04-indexes-query-performance.md --theme-set 00-course-planning/templates/marp-theme/advanced-db-dark.css --pdf --output class-04-indexes-query-performance/slides/session.pdf
 ```
 
-La ruta puede requerir ajuste segun la ubicacion real del archivo `session.md`.
+La ruta puede requerir ajuste segun la ubicacion real del archivo fuente o del repo de clase.
 
 ## Clases CSS Disponibles
 
@@ -105,7 +105,7 @@ Sirve para:
 
 Sirve para:
 
-* copiar bloques base hacia `slides/session.md`
+* copiar bloques base hacia `00-course-planning/slides/NN-topic-name.md`
 * evitar rediseñar tipos de slide clase por clase
 * mantener consistencia entre decks
 
@@ -125,14 +125,14 @@ Usa `patterns.md` cuando quieras:
 * evitar rediseñar slides editoriales una por una
 * revisar variantes de grid/fondo antes de armar una deck nueva
 
-## Como Copiar Patrones a `slides/session.md`
+## Como Copiar Patrones a `00-course-planning/slides/NN-topic-name.md`
 
 Proceso sugerido:
 
 1. Abre `patterns.md`
 2. Identifica el patron que necesitas
 3. Copia solo la slide o bloque relevante
-4. Pegalo en `slides/session.md`
+4. Pegalo en `00-course-planning/slides/NN-topic-name.md`
 5. Reemplaza los `TODO`
 6. Reduce texto si la slide quedo densa
 
@@ -191,8 +191,8 @@ marp 00-course-planning/templates/marp-theme/patterns.md --theme-set 00-course-p
 Para exportar una clase:
 
 ```bash
-marp slides/session.md --theme-set ../../00-course-planning/templates/marp-theme/advanced-db-dark.css --html --output slides/session.html
-marp slides/session.md --theme-set ../../00-course-planning/templates/marp-theme/advanced-db-dark.css --pdf --output slides/session.pdf
+marp 00-course-planning/slides/04-indexes-query-performance.md --theme-set 00-course-planning/templates/marp-theme/advanced-db-dark.css --html --output class-04-indexes-query-performance/slides/session.html
+marp 00-course-planning/slides/04-indexes-query-performance.md --theme-set 00-course-planning/templates/marp-theme/advanced-db-dark.css --pdf --output class-04-indexes-query-performance/slides/session.pdf
 ```
 
 Para preview en VS Code, el workspace debe registrar el theme dentro de `markdown.marp.themes`.

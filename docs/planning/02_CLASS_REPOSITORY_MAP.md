@@ -74,7 +74,8 @@ class-XX-topic-name/
 ├── README.md
 ├── scripts/
 └── slides/
-    └── session.md
+    ├── session.html
+    └── session.pdf
 ```
 
 No todas las carpetas deben llenarse desde el inicio.
@@ -90,7 +91,8 @@ La estructura existe para mantener consistencia y permitir crecimiento increment
 Material que puede estar en `main` o publicarse después de clase:
 
 * `README.md`
-* `slides/session.md`
+* `slides/session.html`
+* `slides/session.pdf`
 * `demo/init.sql`
 * `demo/queries/*` cuando no sean solución completa
 * `exercises/README.md`
@@ -152,7 +154,8 @@ Introducir dinámica del curso, uso de IA con criterio profesional y diferencia 
 Student-facing:
 
 * `README.md`
-* `slides/session.md`
+* `slides/session.html`
+* `slides/session.pdf`
 * `exercises/README.md`
 * demo simple opcional
 

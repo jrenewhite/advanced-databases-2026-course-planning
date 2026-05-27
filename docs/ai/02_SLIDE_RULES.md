@@ -53,21 +53,20 @@ Las presentaciones deben escribirse en:
 Markdown + Marp
 ```
 
-Cada clase debe tener, como mínimo:
+El curso debe tener, como mínimo, una fuente Marp por sesión en el repositorio de planeación:
 
 ```txt
-slides/session.md
+00-course-planning/slides/NN-topic-name.md
 ```
 
-Opcionalmente puede tener:
+Cada repo `class-*` puede tener después de clase exports student-facing como:
 
 ```txt
 slides/session.pdf
 slides/session.html
-slides/assets/
 ```
 
-Los archivos exportados (`.pdf`, `.html`) pueden generarse después, pero la fuente principal siempre debe ser Markdown.
+Los archivos exportados (`.pdf`, `.html`) pueden generarse después, pero la fuente principal siempre debe ser Markdown y vivir centralizada en `00-course-planning/slides/`.
 
 ---
 
@@ -404,7 +403,7 @@ Reglas:
 
 ## 14. Estructura Marp sugerida
 
-Cada `slides/session.md` debe iniciar con frontmatter Marp.
+Cada fuente Marp del curso debe iniciar con frontmatter Marp.
 
 Ejemplo base:
 
@@ -438,13 +437,13 @@ Para el tema, se debe considerar las referencias de 00-course-planning/reference
 Estructura recomendada:
 
 ```txt
-slides/
-├── session.md
-├── assets/
-│   ├── diagram-oltp-vs-olap.svg
-│   ├── mvcc-flow.png
-│   └── meme-query-plan.png
-└── exports/
+00-course-planning/slides/
+├── 01-course-intro-oltp-olap.md
+├── 02-logical-design-domain-rules.md
+└── ...
+
+class-XX-topic-name/
+└── slides/
     ├── session.pdf
     └── session.html
 ```
@@ -621,6 +620,6 @@ Cuando Codex genere slides:
 * Definir tema visual Marp custom basado en las referencias
 * Definir tipografías permitidas (poen source)
 * Definir paleta visual (modo dark y dark de vscode para codigo)
-* Crear template base para `slides/session.md`.
+* Crear template base para `00-course-planning/slides/NN-topic-name.md`.
 * Crear ejemplo de slide buena vs mala.
 * Definir cuando exportar PDF y HTML

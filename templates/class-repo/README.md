@@ -34,7 +34,7 @@ Alternativa visual opcional:
 
 ## Estructura
 
-* `slides/`: presentacion en Marp
+* `slides/`: exports student-facing de la presentacion
 * `demo/`: scripts SQL y apoyo reproducible
 * `exercises/`: actividad guiada
 * `notes/`: material instructor-facing
@@ -59,3 +59,9 @@ TODO: indicar uso permitido y validacion requerida.
 ## Troubleshooting
 
 TODO: agregar problemas comunes y fallback.
+
+## Slides
+
+La fuente editable Marp debe vivir centralizada en `00-course-planning/slides/`.
+
+Dentro del repo `class-*`, la carpeta `slides/` debe reservarse para exports como `session.html` y `session.pdf`.

@@ -60,19 +60,23 @@ El documento oficial de la materia contempla una evaluación distribuida en:
 
 Esta guía propone aterrizar esos rubros de forma práctica y orientada a ingeniería.
 
-Distribución sugerida:
+Distribución oficial aterrizada al curso:
 
 ```txt 
-Examen / defensa técnica       20%
+Examen escrito                 20%
 Diagramas                      10%
 Prácticas de laboratorio       30%
 Proyecto final                 30%
-Reportes / notas técnicas      10%
+Reportes de lectura            10%
 ```
 
-La distribución puede ajustarse si la institución indica un criterio específico.
+Interpretación operativa de los rubros:
 
-No inventar cambios institucionales sin autorización.
+* Examen escrito: componente conceptual breve, con posibilidad de apoyo mediante preguntas de revisión técnica cuando convenga.
+* Diagramas: modelado lógico, diagramas de arquitectura, concurrencia, dimensionales o comparativos.
+* Prácticas de laboratorio: assignments o entregables de laboratorio fuera de clase.
+* Proyecto final: repositorio separado con evidencia, README, uso de IA documentado y posible defensa breve.
+* Reportes de lectura: lectura, reflexión o research técnico breve, no ensayos extensos.
 
 ---
 
@@ -186,6 +190,12 @@ Cada práctica debe tener:
 * criterios de aceptación
 * relación con tema oficial
 
+En este curso, las prácticas se interpretan como el principal componente de laboratorio fuera de clase.
+
+Por el tamaño actual del grupo, las prácticas cortas deben seguir siendo individuales.
+
+Las prácticas grandes pueden mantenerse abiertas a trabajo por parejas solo si el ritmo real del grupo lo justifica.
+
 Ejemplo:
 
 ```md 
@@ -262,7 +272,7 @@ Supuestos / limitaciones       10%
 
 ## 9. Reportes / notas técnicas
 
-Los reportes deben ser breves.
+Los reportes de lectura deben ser breves.
 
 Preferir notas tipo engineering note o mini postmortem sobre ensayos largos.
 
@@ -290,6 +300,7 @@ Objetivo:
 * evitar texto innecesario
 * facilitar revisión
 * conectar teoría con práctica
+* convertir lectura o research en criterio técnico útil
 
 ---
 
@@ -299,8 +310,7 @@ El componente de examen puede manejarse como:
 
 * examen escrito breve
 * quiz conceptual
-* defensa oral
-* revisión técnica de una práctica
+* revisión técnica corta de evidencia cuando convenga
 * combinación de preguntas escritas y explicación
 
 La evaluación debe medir:
@@ -327,13 +337,17 @@ Ejemplos de preguntas:
 
 El proyecto final debe comprender alguno de los modelos de base de datos analizados en el curso.
 
-Debe presentarse y defenderse.
+Debe presentarse y contemplar revisión o defensa oral breve.
 
 Debe vivir en un repo separado del alumno/equipo.
 
 No debe vivir dentro de `class-*` ni dentro de `assignment-*`, salvo instrucción futura explícita.
 
 El proyecto no tiene que ser enorme.
+
+Dado que el grupo actual es de 5 estudiantes, el escenario más probable es proyecto individual.
+
+Si el avance del grupo o el tamaño real del esfuerzo lo ameritan, podrán permitirse parejas.
 
 Debe demostrar:
 
@@ -372,8 +386,8 @@ Presentación sugerida:
 
 * Clase 1: explicar expectativa general
 * Clases 2–8: prácticas que pueden aportar al proyecto
-* Clase 9: revisión de avance o preparación
-* Clase 10: cierre, defensa o integración
+* Clase 9: checkpoint o revisión de avance
+* Clase 10: cierre, revisión final o defensa breve
 
 Esto puede ajustarse según logística real del grupo.
 
@@ -407,15 +421,15 @@ El proyecto debe penalizar:
 
 GitHub Projects puede usarse para dar seguimiento a:
 
-* issues asignados
-* estado de avance
+* repos `assignment-*`
+* checkpoints del proyecto final
 * entregas
 * bloqueos
 * revisiones
 * evidencia
 * participación
 
-Su uso como requisito para todos los alumnos/equipos sigue pendiente y no debe asumirse aquí.
+Su uso como requisito para todos los alumnos/equipos no debe asumirse aquí.
 
 Columnas sugeridas:
 
@@ -502,6 +516,8 @@ Que investigue.
 ## 17. Defensa oral breve
 
 Para evitar copy/paste ciego, usar defensas breves.
+
+En este curso, la defensa o revisión oral breve es especialmente probable para el proyecto final y puede aplicarse a prácticas clave.
 
 Preguntas útiles:
 
@@ -701,10 +717,7 @@ Cuando Codex proponga evaluaciones:
 
 ## TODO
 
-* Confirmar si la distribución institucional será exactamente 20/10/30/30/10.
-* Definir si las prácticas serán individuales o por equipo.
-* Definir si el proyecto final será individual o por equipo.
+* Definir si la defensa oral breve será obligatoria para todos o selectiva según evidencia/riesgo.
 * Crear template de issue evaluable.
 * Crear template de entrega en Markdown.
 * Crear rúbrica corta para defensa oral.
-* Definir convención exacta de ramas para alumnos en repos `assignment-*`.
